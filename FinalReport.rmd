@@ -49,6 +49,8 @@ barchartGC(~race + cappun,data=GSS, type="percent")
 
 ```
 
+Bargraph results imply that that all in all 60% of white are in favor in both graphical results.However, in the second bargraph shows that about 50% are in favor, though about 60% are opposed. Other races show that 60% are in favor and aabout 50% are opposed. However this is not sufficient to conclude whether or not attitude toward capital punishment is indeppendent of race.
+
 ### Numerical Descriptive Results
 
 <!--Numerical results go here. Use the numerical results to describe the patterns if any that exist in the data as focused toward the research question!-->
@@ -60,6 +62,8 @@ table1 <- xtabs(~race + cappun, data=GSS)
 rowPerc(table1)
 colPerc(table1)
 ```
+
+The numerical results above show exact numbers on whether or not capital punishment in 2018,These results imply that there is a stereotypical rcae that are mostly or can state that majority are in favor in the white race. It being 78.43 being the highest number in the results in favor.
 
 ## Inferential Results
 
@@ -149,3 +153,4 @@ fisherXY(GSS$cappun,GSS$race)
 # Discussion and Conclusion
 
 <!--Discussion and conclusion here.  If you found a relationship be sure to consider whether the relationship occurs because one of the variavbles causes the other, or whether they perhasps are related for some other reason.  Watch the chapter 6 videos from the GeorgeTown videos collection.!-->
+To conclude, We can accept the null hypothesis because there are difference in those who are in favor and opposed by race according to results presented. In order to obtain results by uploading the 2018 GSS data and intfererring that I needed the Cat_Cat helper file in order to fill in the graphs and results to come up with definte results from the data uploaded.
